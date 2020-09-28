@@ -1,0 +1,15 @@
+[remap]
+
+importer="codeandweb.texturepacker_import_spritesheet"
+type="Resource"
+path="res://.import/basic.tpsheet-a321110394a0b54845787d97b43d4df3.res"
+
+[deps]
+
+files=[ "res://sprites/stages/basic.sprites/0.tres", "res://sprites/stages/basic.sprites/1.tres", "res://sprites/stages/basic.sprites/2.tres", "res://sprites/stages/basic.sprites/3.tres", "res://sprites/stages/basic.sprites/cam_fall.tres", "res://sprites/stages/basic.sprites/cam_up.tres" ]
+
+source_file="res://sprites/stages/basic.tpsheet"
+dest_files=[ "res://.import/basic.tpsheet-a321110394a0b54845787d97b43d4df3.res", "res://sprites/stages/basic.sprites/0.tres", "res://sprites/stages/basic.sprites/1.tres", "res://sprites/stages/basic.sprites/2.tres", "res://sprites/stages/basic.sprites/3.tres", "res://sprites/stages/basic.sprites/cam_fall.tres", "res://sprites/stages/basic.sprites/cam_up.tres" ]
+
+[params]
+

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/gameplay/weapon_stuff/RWeapon.gd" type="Script" id=1]
+[ext_resource path="res://sprites/HUD/Guns/hud_gun_molotov.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Molotov"
+hud_img = ExtResource( 2 )
+capacity = 1
+clip_size = 20
+weight = 0.5
+rate = 0.0
+base_damage = 20.0
+knockback = 0.0

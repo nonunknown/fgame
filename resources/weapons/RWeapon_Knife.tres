@@ -1,0 +1,15 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://scripts/gameplay/weapon_stuff/RWeapon.gd" type="Script" id=1]
+[ext_resource path="res://sprites/HUD/Guns/hud_gun_knife.png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+name = "Knife"
+hud_img = ExtResource( 2 )
+capacity = 0
+clip_size = 0
+weight = 1.0
+rate = 0.0
+base_damage = 20.0
+knockback = 0.0

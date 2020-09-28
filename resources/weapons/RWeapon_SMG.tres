@@ -1,0 +1,19 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://scripts/gameplay/weapon_stuff/RWeapon.gd" type="Script" id=1]
+[ext_resource path="res://sprites/HUD/Guns/hud_gun_smg.png" type="Texture" id=2]
+[ext_resource path="res://sounds/guns/smg_reload.ogg" type="AudioStream" id=3]
+[ext_resource path="res://sounds/guns/smg_shoot.ogg" type="AudioStream" id=4]
+
+[resource]
+script = ExtResource( 1 )
+name = "SMG"
+hud_img = ExtResource( 2 )
+capacity = 30
+clip_size = 120
+weight = 4.0
+rate = 0.1
+base_damage = 26.0
+knockback = 0.0
+stream_shoot = ExtResource( 4 )
+stream_reload = ExtResource( 3 )

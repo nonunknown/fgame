@@ -1,0 +1,126 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://fonts/TEMPLOG_.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://sprites/HUD/bullet.png" type="Texture" id=2]
+[ext_resource path="res://sprites/HUD/frame.png" type="Texture" id=3]
+[ext_resource path="res://sprites/HUD/Guns/hud_gun_ak47.png" type="Texture" id=4]
+[ext_resource path="res://sprites/HUD/radar.png" type="Texture" id=5]
+[ext_resource path="res://sprites/HUD/life.png" type="Texture" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 50
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+use_mipmaps = true
+use_filter = true
+font_data = ExtResource( 1 )
+
+[sub_resource type="CanvasItemMaterial" id=2]
+blend_mode = 1
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 31.0
+margin_top = 22.0
+margin_right = -32.0
+margin_bottom = -23.0
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -255.0
+margin_top = -64.0
+custom_constants/separation = 21
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Control/HBoxContainer"]
+margin_top = 3.0
+margin_right = 142.0
+margin_bottom = 60.0
+custom_fonts/font = SubResource( 1 )
+custom_colors/font_color = Color( 0.976471, 0.219608, 0.0117647, 1 )
+text = "7 |   120"
+align = 2
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Control/HBoxContainer"]
+modulate = Color( 1, 0.211765, 0, 0.447059 )
+margin_left = 163.0
+margin_right = 227.0
+margin_bottom = 64.0
+rect_min_size = Vector2( 64, 64 )
+rect_pivot_offset = Vector2( 31.7783, 64.9916 )
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 1
+flip_h = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect2" type="TextureRect" parent="Control"]
+modulate = Color( 0.992157, 0.984314, 0.980392, 1 )
+self_modulate = Color( 0.956863, 0.337255, 0.0666667, 1 )
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -181.0
+margin_bottom = 181.0
+texture = ExtResource( 3 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Control/TextureRect2"]
+modulate = Color( 0, 0, 0, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -48.5
+margin_top = -48.5
+margin_right = 48.5
+margin_bottom = 48.5
+texture = ExtResource( 4 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="Control"]
+visible = false
+material = SubResource( 2 )
+margin_left = -29.665
+margin_right = 171.335
+margin_bottom = 160.0
+texture = ExtResource( 5 )
+expand = true
+stretch_mode = 6
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect3" type="TextureRect" parent="Control"]
+material = SubResource( 2 )
+margin_right = 355.0
+margin_bottom = 144.0
+texture = ExtResource( 6 )
+expand = true
+stretch_mode = 5
+__meta__ = {
+"_edit_use_anchors_": false
+}

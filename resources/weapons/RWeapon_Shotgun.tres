@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://scripts/gameplay/weapon_stuff/RWeapon.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = "Shotgun"
+capacity = 7
+clip_size = 32
+weight = 10.0
+rate = 1.0
+base_damage = 120.0
+knockback = 1.0

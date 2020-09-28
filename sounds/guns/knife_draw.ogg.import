@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/knife_draw.ogg-331b53bb9ddd3e41776a4765476bdbe3.oggstr"
+
+[deps]
+
+source_file="res://sounds/guns/knife_draw.ogg"
+dest_files=[ "res://.import/knife_draw.ogg-331b53bb9ddd3e41776a4765476bdbe3.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

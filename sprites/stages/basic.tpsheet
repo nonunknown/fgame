@@ -1,0 +1,108 @@
+{
+	"textures": [
+		{
+			"image": "basic.png",
+			"size": {
+				"w": 512,
+				"h": 64
+			},
+			"sprites": [
+				{
+					"filename": "0",
+					"region": {
+						"x": 4,
+						"y": 4,
+						"w": 80,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "1",
+					"region": {
+						"x": 92,
+						"y": 4,
+						"w": 80,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "2",
+					"region": {
+						"x": 180,
+						"y": 4,
+						"w": 80,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "3",
+					"region": {
+						"x": 268,
+						"y": 4,
+						"w": 64,
+						"h": 42
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "cam_fall",
+					"region": {
+						"x": 340,
+						"y": 4,
+						"w": 64,
+						"h": 35
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				},
+				{
+					"filename": "cam_up",
+					"region": {
+						"x": 412,
+						"y": 4,
+						"w": 52,
+						"h": 43
+					},
+					"margin": {
+						"x": 0,
+						"y": 0,
+						"w": 0,
+						"h": 0
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.6",
+		"format": "RGBA8888",
+	}
+}

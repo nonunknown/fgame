@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ak_reload.ogg-db76892973778a7f9db0fa608ef3624e.oggstr"
+
+[deps]
+
+source_file="res://sounds/guns/ak_reload.ogg"
+dest_files=[ "res://.import/ak_reload.ogg-db76892973778a7f9db0fa608ef3624e.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0
